@@ -1,7 +1,7 @@
 package internal
 
 import (
-	"github.com/hetue/todo/internal/internal/step"
+	"github.com/hetue/gradle/internal/internal/step"
 	"github.com/pangum/pangu"
 )
 

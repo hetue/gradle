@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/hetue/core"
-	"github.com/hetue/todo/internal/internal/config"
+	"github.com/hetue/gradle/internal/internal/config"
 )
 
 var _ core.Step = (*Todo)(nil)
