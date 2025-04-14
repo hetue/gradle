@@ -8,5 +8,5 @@ import (
 type Steps struct {
 	pangu.Get
 
-	Todo *step.Todo
+	Todo *step.Clean
 }

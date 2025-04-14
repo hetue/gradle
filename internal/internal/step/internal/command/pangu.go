@@ -1,4 +1,4 @@
-package step
+package command
 
 import (
 	"github.com/pangum/pangu"
@@ -6,7 +6,6 @@ import (
 
 func init() {
 	pangu.New().Get().Dependency().Puts(
-		newClean,
-		newBuild,
+		NewGit,
 	).Build().Apply()
 }

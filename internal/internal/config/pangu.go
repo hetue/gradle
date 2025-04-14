@@ -6,6 +6,9 @@ import (
 
 func init() {
 	pangu.New().Get().Dependency().Puts(
-		newTodo,
+		newGradle,
+
+		newBinary,
+		newSource,
 	).Build().Apply()
 }
