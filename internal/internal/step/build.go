@@ -4,12 +4,12 @@ import (
 	"context"
 
 	"github.com/goexl/args"
-	"github.com/hetue/core"
+	"github.com/hetue/boot"
 	"github.com/hetue/gradle/internal/internal/config"
 	"github.com/hetue/gradle/internal/internal/step/internal/command"
 )
 
-var _ core.Step = (*Build)(nil)
+var _ boot.Step = (*Build)(nil)
 
 type Build struct {
 	source *config.Source

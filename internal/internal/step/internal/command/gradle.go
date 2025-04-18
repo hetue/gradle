@@ -5,17 +5,17 @@ import (
 
 	"github.com/goexl/args"
 	"github.com/goexl/log"
-	"github.com/hetue/core"
+	"github.com/hetue/boot"
 	"github.com/hetue/gradle/internal/internal/config"
 	"github.com/hetue/gradle/internal/internal/step/internal/command/internal"
 )
 
 type Gradle struct {
-	command *core.Command
+	command *boot.Command
 	binary  *config.Binary
 	source  *config.Source
 
-	runtime *core.Runtime
+	runtime *boot.Runtime
 	logger  log.Logger
 }
 

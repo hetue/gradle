@@ -1,17 +1,17 @@
 package internal
 
 import (
-	"github.com/hetue/core"
+	"github.com/harluo/di"
+	"github.com/hetue/boot"
 	"github.com/hetue/gradle/internal/internal/config"
-	"github.com/pangum/pangu"
 )
 
 type Gradle struct {
-	pangu.Get
+	di.Get
 
-	Command *core.Command
+	Command *boot.Command
 	Binary  *config.Binary
 	Source  *config.Source
 
-	Runtime *core.Runtime
+	Runtime *boot.Runtime
 }

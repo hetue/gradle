@@ -1,7 +1,7 @@
 package config
 
 import (
-	"github.com/pangum/pangu"
+	"github.com/harluo/boot"
 )
 
 type Gradle struct {
@@ -9,7 +9,7 @@ type Gradle struct {
 	Source *Source `default:"{}" json:"source,omitempty"`
 }
 
-func newGradle(config *pangu.Config) (gradle *Gradle, err error) {
+func newGradle(config *boot.Config) (gradle *Gradle, err error) {
 	gradle = new(Gradle)
 	err = config.Build().Get(gradle)
 
