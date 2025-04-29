@@ -6,7 +6,7 @@ require (
 	github.com/goexl/args v0.0.3
 	github.com/goexl/log v0.0.9
 	github.com/harluo/boot v1.6.7
-	github.com/harluo/di v0.0.3
+	github.com/harluo/di v0.0.5
 	github.com/hetue/boot v0.0.4
 )
 
